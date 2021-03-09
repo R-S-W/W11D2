@@ -1,0 +1,4 @@
+  party show      json.gifts.includes(gifts: [:title])  guest.gifts, :title
+  json.gifts guest.gifts, :title
+
+  .includes(guests: [:gifts])
